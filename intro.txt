@@ -1,0 +1,65 @@
+Programming langauges : Those which we are going to use for communication between devices..
+
+# Static Typed                          # Dynamic Typed 
+   Java,C                                      Python
+
+# Compiler langauges                     # Interpreted langauges
+
+    # compilation                                # Execution
+    # execution                             
+
+General Purpose                           # Specific Purpose ..
+
+Java,Python,C,C++,C# etc,                     PASCAL
+
+
+History : 
+    # Guido Van Rossum..
+    # python.org --- official website..
+    # late 1980's -- 1987
+    # 0.1 ---> 1989 .. 
+    # 1.0 -- 1994 1st Jan 
+
+    # 2.x -- most stable version..
+
+    # 3.x -- Current latest version..
+
+
+
+Module-1 : Basics of programming:   
+    # Varibales,Keywords,Operators,Conditonal statements,loopings,control flows..
+
+# Module-2 : Core of python(data types of python)..
+    # Numbers,Strings,lists,tuples,dictionaries,sets...
+
+
+# Module- 3: 
+    # Functions,Modules,Fileoperations,Database connections..,Calculator..
+
+
+# Module-4 : 
+    Oops, Exception Handlings,, 
+
+    Regular Expression
+    Multithreading
+    Webscraping
+    Boto3
+    Pandas
+    django
+
+
+Features of Python:
+    Interpreted
+    general purpose 
+    Case sensitive lanuguage..
+    Portable or platform independent..
+    Huge amount of library support..
+
+
+
+Installation:
+    1) Python Installation -- https://www.python.org/downloads/windows/
+    2) IDE(Editor): https://code.visualstudio.com/download
+
+
+# .py -- Its the extension for python files..
