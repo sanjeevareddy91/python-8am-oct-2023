@@ -52,11 +52,81 @@
 
 str1 = "Python is a programming language."
 
-print(str1)
+# print(str1[0])
 
-print(str1[0])
+# print(str1[14])
+
+# print(str1[7:19]) # last index +1
+
+# slcing -- Performing the jumps or offset..
+
+# print(str1[0:10:1]) # Default value for 3rd argument will be 1..
+
+# print(str1[0:10:2])
 
 
-print(str1[12])
+# Negative Indexing -- It will start from -1..
+str1 = "Python is a programming language."
 
-# print(str1[50]) # This will give the error as we are trying to access the index out of the range..
+# print(str1[-1])
+
+# print(str1[-6])
+
+# print(str1[-2:-9:1]) # This will return the output as empty, as slicing is going to perfrom the operation in positive order but we require it in negative order..
+
+# print(str1[-2:-10:-1])
+
+# print(str1[-1:-(len(str1)+1):-1])
+
+# len -- will return the lenght of the sequence
+
+# print(str1[::-1])
+
+# data = str1[-2:-10:-1]
+
+# print(data[::-1])
+
+# print(str1[24:32])
+
+# str1 = "Python is a programming language."
+
+
+# print(str1[-9:32])
+
+# print(str1[-9])
+
+# print(str1[-9:])
+
+
+# Immutable -- Those Which we cannot change once the declartion is done.
+
+str1 = "Python is a programming language."
+
+
+# str1[0] = 'p' # will throw the error as strings are immutable..
+
+
+# concatenation(+) - Adding of 2 or more strings and making it as single string..
+# Repetition(*). -- Repeating the same string multiple number of times.
+
+
+hero = "Balayya"
+
+slogan = " Jai Balayya"
+
+# print(hero + slogan)
+
+print(slogan*5)
+
+
+# dir -- WIll list what are all the methods that i can perform on the value..
+
+print(dir(str))
+
+
+# Multiline comments
+"""
+sakjsjkajksa
+sasjakjsakjsajk
+hsjhasaa
+"""
