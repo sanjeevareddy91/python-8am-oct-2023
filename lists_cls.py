@@ -1,15 +1,15 @@
 # lists : Sequence of multiple values seperated with comma(,) declared inside [ ]..
 
-list1 = [62,5.6,'Python','Django',87]
+# list1 = [62,5.6,'Python','Django',87]
 
 
-print(list1)
+# print(list1)
 
-print(type(list1)) # will return the type as list..
+# print(type(list1)) # will return the type as list..
 
 # Nested List : Declaring the list inside other list..
 
-list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
+# list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
 
 
 # Accessing the elements inside the list is done using --- indexing..
@@ -32,7 +32,7 @@ list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
 
 
 
-list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
+# list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
 
 
 # print(list1[2:6]) # []
@@ -84,3 +84,158 @@ list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
 # del list1[1:4]
 
 # print(list1)
+
+
+# Concatenation(+): Adding of 2 list elements and making it as a single list..
+# Repetition(*) : Repeating the elements of a list multiple no.of time..
+
+# print([1,2,3,4]+['python',32,'django'])
+
+# print([2,3,4,5]*3)
+
+# List Methods:
+
+# print(dir(list))
+
+# Adding methods:
+    # append
+    # extend
+    # insert
+
+# removal Methods:
+    # remove
+    # pop
+    # clear
+
+# accessing methods:
+    # index
+    # count
+
+# alter methods:
+    # sort
+    # reverse
+    # copy
+
+
+# append -- Its for adding a single element into the list at a time, element will be added to the last index..
+
+
+list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
+
+# print(list1)
+
+# list1.append(76)
+
+# print(list1)
+
+# list1.append('datascience')
+
+# print(list1)
+
+# list1.append([31,32,33])
+
+# print(list1)
+
+# Extend -- Its for adding multiple elements into the list at a time and will take only sequence as the element..
+    # It wont accept numbers and dictionaries as value inside the extend method..
+
+
+# list1.extend(43) -- Because integer is not an iterable..
+
+# list1.extend('datascience')
+
+# print(list1)
+
+# list1.extend(['datascience','devops',65])
+
+# print(list1)
+
+
+# # insert -- It also for adding an single element into the list at a specific index value..
+
+# list1.insert(4,'machinelearning')
+
+# print(list1)
+
+# [(1,2),(4,"django"),(8,"Python")]
+
+# Removal Methods:
+
+# remove -- Its for removing the element from the list, by specifying the element..
+
+
+list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
+# print(list1)
+# # print('ramesh' in list1)
+
+# print(list1.remove('django'))
+
+# print(list1)
+
+# if 'ramesh' in list1:
+#     list1.remove('ramesh')
+
+# print(list1)
+
+
+# # pop -- Its for removing the element from the list,but based on the index value...
+
+# print(list1.pop(4))
+
+# print(list1)
+
+
+# # clear() -- It will remove all the elements from the list and make it as empty list..
+
+# list1.clear()
+
+# print(list1)
+
+
+# Accessing methods:
+    # index - It will return the index value of an element inside the list..
+
+
+# print(list1.index('django'))
+
+# # count - How many times a particular element is repeated inside the list..
+
+# print(list1.count(32))
+
+
+# Altering methods:
+    # sort() -- Its for converting the list into ascending or descending order..
+        # We have to make sure that all the element inside the list should be of same datatype only.
+        # if it contans different datatype it will throw the error.
+
+        # By default sorting is going to perform ascending order..
+
+
+# list1 = [32,'python',['Suresh','Mahesh','Subash'],73,'django',32,'datascience']
+
+# print(list1)
+
+# list1[2].sort()
+
+# # list1[2]
+
+# print(list1)
+
+list1 = ['Balayya','Chiranjeevi',"Mahesh","Pawankalyan","NTR","Ramcharan","Prabhas","Alluarjun"]
+
+print(list1)
+
+# # list1.sort()
+
+# # print(list1)
+
+# list1.sort(reverse=True)
+
+# print(list1)
+
+
+# reverse() -- Reverse the element of the list ...
+
+list1.reverse()
+
+print(list1)
