@@ -223,7 +223,7 @@ list1 = [32,'python',['Mahesh','Suresh','Subash'],73,'django',32,'datascience']
 
 list1 = ['Balayya','Chiranjeevi',"Mahesh","Pawankalyan","NTR","Ramcharan","Prabhas","Alluarjun"]
 
-print(list1)
+# print(list1)
 
 # # list1.sort()
 
@@ -236,6 +236,112 @@ print(list1)
 
 # reverse() -- Reverse the element of the list ...
 
-list1.reverse()
+# list1.reverse()
 
-print(list1)
+# print(list1)
+
+
+list1 = ['Balayya','Chiranjeevi',"Mahesh","Pawankalyan","NTR","Ramcharan","Prabhas","Alluarjun"]
+
+
+# list2 = list1 # This will assign the memory allocation of list1 to list2..
+
+# list2 = ['Balayya','Chiranjeevi',"Mahesh","Pawankalyan","NTR","Ramcharan","Prabhas","Alluarjun"]
+
+# list2 = list1.copy() # This will copy the values of list1 and create a new memory for the copy and will assign it to the list2..
+
+# print(list1)
+# print(list2)
+
+# list1.append(43)
+
+# print(list1)
+# print(list2)
+
+# satisified_data = []
+# for ele in list1:
+#     if ele == 'Balayya':
+#         satisified_data.append("Dabidi debidaaaaa")
+#     elif ele == "Chiranjeevi":
+#         satisified_data.append("Veera shankar Reddddddyyyyyy")
+#     elif ele == "Mahesh":
+#         satisified_data.append("Kal aag hi meelanga , Party karenga oorrrr janda pathengaaaa")
+#     else:
+#         print("Not found")
+
+# print(satisified_data)
+
+marks = [64,84,53,94,43,73,63,84,68,53,58]
+# print(marks)
+
+# updated_marks = []
+# for ele in marks:
+#     if ele <90:
+#         updated_marks.append(ele+5)
+
+# print(updated_marks)
+
+
+# updated_marks = []
+# for ele in marks:
+#     if ele <90:
+#         updated_marks.append(ele+5)
+
+#     else:
+#         updated_marks.append(ele)
+
+# print(updated_marks)
+
+
+# List Comprehension : Most Elegnat way of creating the list.
+
+# Syntax1 :
+
+# [expression for ele in sequence]
+
+# Manual Way
+# updated_marks = []
+# for ele in marks:
+#     updated_marks.append(ele+5)
+
+# print(updated_marks)
+
+# # List Comprehension Way
+# print([ele+5 for ele in marks])
+
+
+
+
+# 2nd Syntax:
+
+# [expression for ele in sequence if condition]
+# Manual Way:
+# updated_marks = []
+# for ele in marks:
+#     if ele <90:
+#         updated_marks.append(ele+5)
+
+# print(updated_marks)
+
+# # List Comprehension Way
+# print([ele+5 for ele in marks if ele<90])
+
+
+# 3rd Syntax:
+
+# [expression1 if condition else expression2 for ele in sequence ]
+
+
+# updated_marks = []
+# for ele in marks:
+#     if ele <90:
+#         updated_marks.append(ele+5)
+
+#     else:
+#         updated_marks.append(ele)
+
+# print(updated_marks)
+
+# print([ele+5 if ele<90 else ele for ele in marks])
+
+
