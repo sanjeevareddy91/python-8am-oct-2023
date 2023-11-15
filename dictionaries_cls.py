@@ -180,3 +180,72 @@
 #         dict3[key] = value
 
 # print(dict3)
+
+# Dictionary Comprehensions:
+
+dict1 = {}
+
+# for ele in range(1,10):
+#     dict1[ele] = ele**2
+# print(dict1)
+
+# 1st Syntax:
+    # {key:value for element in sequence}
+# dict1 = {ele:ele**2 for ele in range(1,10)}
+# print(dict1)
+
+
+# for ele in range(1,10):
+#     if ele%2 == 0:
+#         dict1[ele] = ele**2
+# print(dict1)
+
+
+# 2nd Syntax:
+    # {key:value for element in sequence if condition}
+# dict1 = {ele:ele**2 for ele in range(1,10) if ele%2==0}
+# print(dict1)
+
+
+
+# for ele in range(1,10):
+#     if ele%2 == 0:
+#         dict1[ele] = ele**2
+#     else:
+#         dict1[ele] = ele**3
+# print(dict1)
+
+
+# 3rd Syntax:
+    # {key:value1 if condition else value2 for element in sequence}
+
+# dict1 = {ele:ele**2 if ele%2 ==0 else ele**3 for ele in range(1,10)}
+# print(dict1)
+
+
+# Comprehensions either list or dictionary are used only for single line logic itself..
+
+# Task :
+
+
+# dict1 = {}
+# enter your name:"suresh"
+# enter your mobile number : 32873287747
+
+
+dict1 = {'suresh':32873287747}
+# Do you want to continue: yes
+# enter your name : 'ramesh'
+# enter your number : 83984949494
+
+# dict1 = {'suresh':[32873287747,83892932929],'ramesh':83984949494,}
+
+# Do you want to continue: yes
+    # enter your name: 'suresh'
+        # This user already existed do you want to add or update?
+        # ENter you number : 83892932929
+            # if add selected 
+                # add -- [32873287747,83892932929]
+            # if update is sslected:
+                # 83892932929
+
