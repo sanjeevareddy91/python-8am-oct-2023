@@ -1,0 +1,4 @@
+Python is a programming language.
+Django is a framework for Python.
+Django-rest-framework is used for building the Rest Apis..
+Python is used as scripting in Devops tools..
