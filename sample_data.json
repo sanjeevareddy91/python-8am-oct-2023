@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ramesh",
+        "email": "ramesh@gmail.com",
+        "mobile": "8392982893",
+        "city": null
+    },
+    {
+        "name": "ramesh",
+        "email": "ramesh@gmail.com",
+        "mobile": "8392982893",
+        "city": "Hyderabad"
+    },
+    {
+        "name": "ramesh",
+        "email": "ramesh@gmail.com",
+        "mobile": "8392982893",
+        "city": "Hyderabad"
+    },
+    {
+        "name": "ramesh",
+        "email": "ramesh@gmail.com",
+        "mobile": "8392982893",
+        "city": null
+    },
+    {
+        "name": "mahesh",
+        "email": "mahesh@gmail.com",
+        "mobile": "784448845",
+        "city": "Chennai"
+    }
+]
