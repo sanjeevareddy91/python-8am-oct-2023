@@ -1,7 +1,7 @@
 import re
 
-# ^
-# $ 
+# ^ - strating of re
+# $ - ending of re
 # \d - digits
 # \w - alphanumeric
 # {} - specifying the length.
@@ -39,3 +39,39 @@ str_data = " Please use 733 738-8383 number to contact me."
 # match1 = re.findall(format_str,str_data)
 
 # print(match1)
+
+# Password Validation:
+
+# atleast 1 upper
+# atleast 1 lower
+# atleast 1 number
+# atelast 1 special(@$!&)
+# length should be between 8,12
+# pass_pattern = r'^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@\$!&])([\d\w@\$!&]){8,12}$'
+
+# password = "Aa2&gsajjgq"
+
+# data = re.match(pass_pattern,password)
+
+# print(data.group())
+
+
+# password = "a2&gsajjgq"
+
+# data = re.match(pass_pattern,password)
+
+# print(data)
+
+# Email validation:
+
+# a@a.bcnd
+# rajeh@gmail.com
+
+# email_check = r'^[A-Za-z0-9]+@[A-Za-z]+.[A-Za-z]+$'
+
+# email = "S@gmail.com"
+
+# data = re.match(email_check,email)
+
+# print(data)
+
