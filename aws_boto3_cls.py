@@ -2,7 +2,7 @@
 
 import boto3
 
-s3_client = boto3.client('s3',aws_access_key_id='AKIA3EJXA374DAPK4QWP',aws_secret_access_key='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')
+s3_client = boto3.client('s3',aws_access_key_id='',aws_secret_access_key='')
 
 
 # print(s3_client)
