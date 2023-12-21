@@ -1,0 +1,20 @@
+[
+    {
+        "name":"ramesh",
+        "email":"ramesh@gmail.com",
+        "mobile":9488998444,
+        "city":"Hyderabad"
+    },
+    {
+        "name":"venkatesh",
+        "email":"venkatesh@wipro.com",
+        "mobile":838239909344,
+        "city":"Hyderabad"
+    },
+    {
+        "name":"subash",
+        "email":"subash@infosys.com",
+        "mobile":937948499444,
+        "city":"Hyderabad"
+    }
+]
